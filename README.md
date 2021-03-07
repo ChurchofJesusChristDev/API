@@ -84,3 +84,64 @@ Host: lcr.churchofjesuschrist.org
   "value": null
 }
 ```
+
+## Household Image
+
+```txt
+GET /services/photos/manage-photos/approved-image-household/1000000001?lang=eng&addable=false
+Host lcr.churchofjesuschrist.org
+```
+
+```json
+{
+  "name": "Potter, Harry",
+  "spokenName": "Harry Potter",
+  "nameOrder": null,
+  "birthDate": "19800731",
+  "birthDateSort": "19800731",
+  "birthDaySort": "07-31",
+  "birthDayFormatted": "31 Jul",
+  "birthDateFormatted": "31 Jul 1980",
+  "gender": "MALE",
+  "genderCode": 1,
+  "mrn": null,
+  "id": 1000000001,
+  "email": "harry.potter@example.com",
+  "householdEmail": "harry.potter@example.com",
+  "phone": "801-555-4444",
+  "householdPhone": "801-555-4444",
+  "unitNumber": 200001,
+  "unitName": "Gryffindor House Ward",
+  "priesthood": null,
+  "priesthoodCode": null,
+  "priesthoodType": null,
+  "age": 40,
+  "actualAge": 40,
+  "actualAgeInMonths": 487,
+  "genderLabelShort": "M",
+  "visible": null,
+  "nonMember": false,
+  "outOfUnitMember": false,
+  "notAccountable": false,
+  "image": {
+    "mediaKey": "abcdef12345678900000000000000000",
+    "tokenUrl": "https://ws.churchofjesuschrist.org/api/mlu/scdn/v2/img/12345678-abcd-4ef0-1234-56789abcdef0",
+    "format": "JPG",
+    "status": "APPROVED",
+    "subjectType": "HOUSEHOLD",
+    "createdDate": 1572199843153,
+    "individualId": 1000000001,
+    "unitNumber": 200001,
+    "statusEnum": "APPROVED",
+    "subjectTypeEnum": "HOUSEHOLD"
+  },
+  "householdName": "Potter, Harry & Ginevra",
+  "legalName": null,
+  "individualAndHouseHoldImages": [],
+  "editable": false,
+  "sustainedDate": null,
+  "setApart": false,
+  "formattedMrn": null,
+  "accountable": true
+}
+```
