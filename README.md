@@ -2,6 +2,17 @@
 
 Unofficial Church of Jesus Christ API Documentation
 
+## Sample Data
+
+This dummy data is used throughout the documentation.
+
+| ID         | Name                                     | Type       |
+| ---------: | ---------------------------------------- | :--------- |
+| 1000000001 | Harry James Potter (M)<br>31 Jul, 1980   | Individual |
+| 1000000002 | Ginevra Molly Potter (F)<br>11 Aug, 1981 | Individual |
+|    2000001 | Hogwarts School Stake                    | Stake      |
+|     300001 | Gryffindor House Ward                    | Ward       |
+
 ## Member Card
 
 ```txt
