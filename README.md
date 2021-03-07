@@ -20,6 +20,11 @@ GET /services/member-card?id=1000000001&includeAddhouseholdDatas=true&lang=eng&t
 Host: lcr.churchofjesuschrist.org
 ```
 
+Query Options:
+
+- `&includeAddhouseholdDatas=true`
+- `&includePriesthood=true`
+
 ```json
 {
   "id": "1000000001",
