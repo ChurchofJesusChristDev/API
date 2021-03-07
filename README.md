@@ -1,2 +1,86 @@
 # API
-Clandestine API Documentation
+
+Unofficial Church of Jesus Christ API Documentation
+
+## Member Card
+
+```txt
+GET /services/member-card?id=1000000001&includeAddhouseholdDatas=true&lang=eng&type=INDIVIDUAL
+Host: lcr.churchofjesuschrist.org
+```
+
+```json
+{
+  "id": "1000000001",
+  "name": "Harry Potter",
+  "nameOrder": null,
+  "listName": "Potter, Harry",
+  "spokenName": "Harry Potter",
+  "label": "Harry Potter",
+  "mrn": null,
+  "displayMrn": null,
+  "phone": "801-555-4444",
+  "individualPhone": "801-555-4444",
+  "email": "harry.potter@example.com",
+  "age": 40,
+  "ageAsOfDec31": 41,
+  "ageAsOfDec31NextYear": null,
+  "actualAge": 40,
+  "actualAgeInMonths": 487,
+  "priesthood": null,
+  "priesthoodType": null,
+  "allPriesthoodOrdinations": null,
+  "nextRecommendedPriesthoodType": null,
+  "pendingPriesthoodType": null,
+  "pendingWardInterviewDate": null,
+  "pendingBishopApproves": null,
+  "priesthoodCode": null,
+  "melchizedek": null,
+  "birthDate": "31 Jul 1980",
+  "birthDateCmis": "19803107",
+  "baptismDateCmis": null,
+  "baptismEligibleDateCmis": null,
+  "deaconEligibleDateCmis": null,
+  "teacherEligibleDateCmis": null,
+  "priestEligibleDateCmis": null,
+  "elderEligibleDateCmis": null,
+  "highPriestEligibleDateCmis": null,
+  "confirmationDateCmis": null,
+  "info": null,
+  "info2": null,
+  "gender": "MALE",
+  "name1": "Potter, Harry James",
+  "name2": null,
+  "legalName": "Harry James Potter",
+  "position": null,
+  "address1": null,
+  "address2": null,
+  "address3": null,
+  "address4": null,
+  "unitNumber": 300001,
+  "unitName": "Gryffindor House Ward",
+  "unitAbbreviation": "3",
+  "unitType": "WARD",
+  "parentUnitNumber": 2000001,
+  "parentUnitName": "Hogwarts School Stake",
+  "parentUnitType": "STAKE",
+  "adultAgeOrMarried": true,
+  "oouMember": false,
+  "linkedRecord": false,
+  "residesInWardOrBranch": true,
+  "headOfHousehold": true,
+  "youngMissionary": false,
+  "missionary": false,
+  "endowed": false,
+  "defaultClassAssignmentTypeIds": null,
+  "currentClassAssignmentSubOrgNames": null,
+  "recommendWarning": null,
+  "recommendError": null,
+  "recommendStatus": null,
+  "priesthoodRestrictionMessage": null,
+  "priesthoodRestrictionMessageDetails": null,
+  "restrictMelPriesthood": false,
+  "rbr": false,
+  "value": null
+}
+```
