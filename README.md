@@ -161,3 +161,23 @@ Host lcr.churchofjesuschrist.org
   "accountable": true
 }
 ```
+
+## Send Email
+
+```txt
+POST /services/umlu/v1/ministering/email?lang=eng
+Host lcr.churchofjesuschrist.org
+
+{
+  "lang": "eng",
+  "allowReplyAll": false,
+  "recipients": [1000000001],
+  "subject": "You're a Wizard Harry!",
+  "messageBody": "<p>Harry, Welcome to the Gryffindor House Ward of the Hogwarts School Stake.</p>",
+  "type": "EQ",
+}
+```
+
+Options
+
+-   `"attachMinisteringAssignment": true`
