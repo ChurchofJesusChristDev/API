@@ -6,18 +6,19 @@ Unofficial Church of Jesus Christ API Documentation
 
 This dummy data is used throughout the documentation.
 
-| Name                                         | Legacy(?) CMIS ID | Type       | UUID                                 |
-| -------------------------------------------- | ----------------: | :--------- | :----------------------------------: |
-| **Harry James Potter**<br>(M) 31 Jul, 1980   |        1000000001 | Individual | 10000000-0000-4000-8000-000000000001 |
-| **Ginevra Molly Potter**<br>(F) 11 Aug, 1981 |        1000000002 | Individual | 10000000-0000-4000-8000-000000000002 |
-| **Ronald Bilius Weasley**<br>(M) 1 Mar, 1980 |        1000000003 | Individual | 10000000-0000-4000-8000-000000000003 |
-| **Hermione Granger**<br>(F) 19 Sep, 1979     |        1000000004 | Individual | 10000000-0000-4000-8000-000000000004 |
-| **Sirius Black**<br>(M) 3 Nov, 1959          |        1000000005 | Individual | 10000000-0000-4000-8000-000000000005 |
-| **Rubius Hagrid**<br>(M) 6 Dec, 1928         |        1000000006 | Individual | 10000000-0000-4000-8000-000000000006 |
-| **Albus Dumbledore**<br>(M) 1 Aug, 1881\*    |        1000000006 | Individual | 10000000-0000-4000-8000-000000000006 |
-| **Hogwarts School Stake**                    |           2000001 | Stake      |                   -                  |
-| **Gryffindor House Ward**                    |            300001 | Ward       |                   -                  |
-| **Dstrict 1**                                |            -      | District   | 50000000-0000-4000-8000-000000000001 |
+| Name                                         | Legacy(?) CMIS ID | Type          | UUID                                 |
+| -------------------------------------------- | ----------------: | :------------ | :----------------------------------: |
+| **Harry James Potter**<br>(M) 31 Jul, 1980   |        1000000001 | Individual    | 10000000-0000-4000-8000-000000000001 |
+| **Ginevra Molly Potter**<br>(F) 11 Aug, 1981 |        1000000002 | Individual    | 10000000-0000-4000-8000-000000000002 |
+| **Ronald Bilius Weasley**<br>(M) 1 Mar, 1980 |        1000000003 | Individual    | 10000000-0000-4000-8000-000000000003 |
+| **Hermione Granger**<br>(F) 19 Sep, 1979     |        1000000004 | Individual    | 10000000-0000-4000-8000-000000000004 |
+| **Sirius Black**<br>(M) 3 Nov, 1959          |        1000000005 | Individual    | 10000000-0000-4000-8000-000000000005 |
+| **Rubius Hagrid**<br>(M) 6 Dec, 1928         |        1000000006 | Individual    | 10000000-0000-4000-8000-000000000006 |
+| **Albus Dumbledore**<br>(M) 1 Aug, 1881\*    |        1000000006 | Individual    | 10000000-0000-4000-8000-000000000006 |
+| **Hogwarts School Stake**                    |           2000001 | Stake         |                   -                  |
+| **Gryffindor House Ward**                    |            300001 | Ward          |                   -                  |
+| **District 1**                               |            -      | District      | 50000000-0000-4000-8000-000000000001 |
+| **Companionship 1**                          |            -      | Companionship | 60000000-0000-4000-8000-000000000001 |
 
 * We [don't actually know](https://www.reddit.com/r/harrypotter/comments/81o3ze/albus_dumbledores_birthday/) Dumbledore's birthday...
 
