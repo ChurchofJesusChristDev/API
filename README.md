@@ -6,13 +6,20 @@ Unofficial Church of Jesus Christ API Documentation
 
 This dummy data is used throughout the documentation.
 
-| UUID                                 | Legacy(?) CMIS ID | Name                                     | Type       |
-| :----------------------------------: | ----------------: | ---------------------------------------- | :--------- |
-|                   -                  |        1000000001 | Harry James Potter (M)<br>31 Jul, 1980   | Individual |
-|                   -                  |        1000000002 | Ginevra Molly Potter (F)<br>11 Aug, 1981 | Individual |
-|                   -                  |           2000001 | Hogwarts School Stake                    | Stake      |
-|                   -                  |            300001 | Gryffindor House Ward                    | Ward       |
-| 50000000-0000-4000-8000-000000000001 |            -      | Dstrict 1                                | District   |
+| Name                                     | Legacy(?) CMIS ID | Type       | UUID                                 |
+| ---------------------------------------- | ----------------: | :--------- | :----------------------------------: |
+| Harry James Potter (M)<br>31 Jul, 1980   |        1000000001 | Individual | 10000000-0000-4000-8000-000000000001 |
+| Ginevra Molly Potter (F)<br>11 Aug, 1981 |        1000000002 | Individual | 10000000-0000-4000-8000-000000000002 |
+| Ronald Bilius Weasley (M)<br>1 Mar, 1980 |        1000000003 | Individual | 10000000-0000-4000-8000-000000000003 |
+| Hermione Granger (F)<br>19 Sep, 1979     |        1000000004 | Individual | 10000000-0000-4000-8000-000000000004 |
+| Sirius Black (M)<br>3 Nov, 1959          |        1000000005 | Individual | 10000000-0000-4000-8000-000000000005 |
+| Rubius Hagrid (M)<br>6 Dec, 1928         |        1000000006 | Individual | 10000000-0000-4000-8000-000000000006 |
+| Albus Dumbledore (M)<br>1 Aug, 1881*     |        1000000006 | Individual | 10000000-0000-4000-8000-000000000006 |
+| Hogwarts School Stake                    |           2000001 | Stake      |                   -                  |
+| Gryffindor House Ward                    |            300001 | Ward       |                   -                  |
+| Dstrict 1                                |            -      | District   | 50000000-0000-4000-8000-000000000001 |
+
+* We [don't actually know](https://www.reddit.com/r/harrypotter/comments/81o3ze/albus_dumbledores_birthday/) Dumbledore's birthday...
 
 ## Member Card
 
